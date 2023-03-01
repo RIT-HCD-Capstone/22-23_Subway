@@ -1,5 +1,7 @@
 <script lang="ts">
-	/** @type {import('./$types').PageData} */ export let data: any[];
+	import type { Artifact } from '$lib/models/artifact';
+
+	export let data: Artifact[];
 </script>
 
 <aside>
@@ -10,6 +12,6 @@
 <main>
 	{#each data as item}
 		<!-- <h1>{data.post2}</h1> -->
-		<div>{@html item}</div>
+		<div>{item.fileName}</div>
 	{/each}
 </main>
