@@ -30,8 +30,7 @@
 		<p class="max-w-[65ch] mt-4">
 			The Rochester Subway Archive is a digital collection of historical information and artifacts
 			related to the Rochester Subway, a now-defunct underground rail system that operated in
-			Rochester, New York from 1927 to 1956. The archive was created by Chris Clemens, a writer and
-			historian who grew up in Rochester and became fascinated by the city's history.
+			Rochester, New York from 1927 to 1956.
 		</p>
 		<p class="max-w-[65ch] mt-4">
 			The Archive includes a wide range of materials, including photographs, maps, videos, and
