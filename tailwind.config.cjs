@@ -11,6 +11,7 @@ module.exports = {
         'brandYellow': "#FFDF35",
         'brandRed': "#D82939",
         'brandTeal': "#15BDA8",
+        'brandBlue': '#3E3E69',
       },
       backgroundImage: {
         'hero': "url('/hero.jpg')",

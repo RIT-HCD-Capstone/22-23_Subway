@@ -3,3 +3,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+p {
+  @apply max-w-[85ch]
+}
+
+h3 {
+  @apply text-brandTeal text-4xl
+}
+
+* {
+  @apply font-body
+}
