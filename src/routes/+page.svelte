@@ -102,11 +102,11 @@
 		</p>
 		<h3>Team</h3>
 		<div class="grid grid-cols-3 gap-4">
-			<TeamMember name="Josh Clemens" role="Website & Database Developer" />
+			<TeamMember name="Josh Clemens" role="Website & Database Developer Project Manager" />
+			<TeamMember name="Tyler Palmiter" role="Content Writer & Sourcing" />
 			<TeamMember name="Zoë Zapata" role="UI/UX Designer" />
-			<TeamMember name="Tyler Palmiter" role="Website & Database Developer" />
-			<TeamMember name="Lindsay Behrens" role="Website & Database Developer" />
-			<TeamMember name="Wentao Zhao" role="Website & Database Developer" />
+			<TeamMember name="Lindsay Behrens" role="Contributor" />
+			<TeamMember name="Wentao Zhao" role="Contributor" />
 		</div>
 	</div>
 </main>
