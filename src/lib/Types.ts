@@ -1,0 +1,1 @@
+export type Era = 'Pre-Canal' | 'Canal' | 'Subway' | 'Abandoned' | 'Graffiti' | 'Future' | 'Unknown'

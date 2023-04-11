@@ -1,5 +1,9 @@
-<script>
+<script lang="ts">
+	import EraCard from '$lib/EraCard.svelte';
 	import TeamMember from '$lib/TeamMember.svelte';
+	import type { Era } from '$lib/Types';
+
+	let eras: Era[] = ['Pre-Canal', 'Canal', 'Subway', 'Abandoned', 'Graffiti', 'Future', 'Unknown'];
 </script>
 
 <svelte:head>
@@ -38,7 +42,7 @@
 		</p>
 	</section>
 </div>
-<main class="flex flex-col justify-center items-center my-8">
+<main class="flex flex-col justify-center items-center my-8 mx-4">
 	<div class="max-w-[85ch] space-y-8">
 		<p>
 			Visitors to the site can explore the history of the Subway, learn about the different stations
@@ -52,21 +56,33 @@
 				history of Rochester or the evolution of urban transportation systems more broadly.</b
 			>
 		</p>
+		<div class="flex flex-row flex-wrap gap-4 justify-around items-center">
+			{#each eras as era}
+				<EraCard {era} />
+			{/each}
+		</div>
 		<h3>IMPORTANCE</h3>
 		<p>
 			Graffiti played a role in the culture of the Rochester Subway, and there are several examples
 			of graffiti art preserved in the Rochester Subway Archive. As an abandoned and largely
 			overlooked public space, the subway tunnels became a canvas for graffiti artists who used the
-			blank walls and surfaces to showcase their art.<br /><br />The graffiti in the Rochester
-			Subway reflects the broader cultural trends of the time period, including the rise of hip hop
-			culture, street art, and political activism. Some of the graffiti in the Archive depicts
-			political slogans and social commentary, while other examples feature more stylized designs
-			and lettering.<br /><br />The graffiti art in the Archive also provides a window into the
-			underground culture of the subway during its heyday, as well as the subculture of graffiti
-			artists and their role in the urban landscape. The Archive includes photos and videos of the
-			graffiti art, as well as interviews with former subway riders and graffiti artists who reflect
-			on the impact of the art and its place in the cultural history of Rochester.<br /><br
-			/>Overall, the graffiti in the Rochester Subway Archive is a fascinating and valuable cultural
+			blank walls and surfaces to showcase their art.
+		</p>
+		<p>
+			The graffiti in the Rochester Subway reflects the broader cultural trends of the time period,
+			including the rise of hip hop culture, street art, and political activism. Some of the
+			graffiti in the Archive depicts political slogans and social commentary, while other examples
+			feature more stylized designs and lettering.
+		</p>
+		<p>
+			The graffiti art in the Archive also provides a window into the underground culture of the
+			subway during its heyday, as well as the subculture of graffiti artists and their role in the
+			urban landscape. The Archive includes photos and videos of the graffiti art, as well as
+			interviews with former subway riders and graffiti artists who reflect on the impact of the art
+			and its place in the cultural history of Rochester.
+		</p>
+		<p>
+			Overall, the graffiti in the Rochester Subway Archive is a fascinating and valuable cultural
 			artifact that offers insight into the broader trends of the time period, as well as the unique
 			subculture of the Rochester Subway.
 		</p>
@@ -76,11 +92,13 @@
 			stakeholders involved. Some common reasons for starting a project might include developing a
 			new product or service, improving an existing process or system, launching a marketing
 			campaign, implementing new technology, conducting research or experimentation, building
-			infrastructure, or addressing a social or environmental issue.<br /><br />Effective project
-			management involves careful planning, execution, and monitoring of project activities, as well
-			as effective communication and collaboration among team members and stakeholders. Projects can
-			be complex and challenging, but when successfully executed, they can lead to significant
-			benefits and positive outcomes.
+			infrastructure, or addressing a social or environmental issue.
+		</p>
+		<p>
+			Effective project management involves careful planning, execution, and monitoring of project
+			activities, as well as effective communication and collaboration among team members and
+			stakeholders. Projects can be complex and challenging, but when successfully executed, they
+			can lead to significant benefits and positive outcomes.
 		</p>
 		<h3>Team</h3>
 		<div class="grid grid-cols-3 gap-4">
