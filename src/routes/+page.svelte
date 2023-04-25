@@ -3,7 +3,7 @@
 	import TeamMember from '$lib/TeamMember.svelte';
 	import type { Era } from '$lib/Types';
 
-	let eras: Era[] = ['Pre-Canal', 'Canal', 'Subway', 'Abandoned', 'Graffiti', 'Future', 'Unknown'];
+	let eras: Era[] = ['Canal', 'Subway', 'Graffiti', 'Future'];
 </script>
 
 <svelte:head>
