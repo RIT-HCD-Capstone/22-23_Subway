@@ -19,7 +19,7 @@
 
 <a
 	class="group flex justify-center items-center relative w-24 h-24 rounded-md border-2 border-white hover:border-brandRed"
-	href="/{era}"
+	href="/archive"
 >
 	<img
 		src={eraImage(era)}

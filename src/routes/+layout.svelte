@@ -11,7 +11,7 @@
 	<a href="/">
 		<img src="assets/logo/Color_bg_logo.png" alt="Subway Archive Logo" class="w-16" />
 	</a>
-	<div class="group relative p-6 hover:text-brandRed hover:bg-brandBlue cursor-pointer">
+	<!-- <div class="group relative p-6 hover:text-brandRed hover:bg-brandBlue cursor-pointer">
 		Eras
 		<div
 			class="flex flex-col invisible group-hover:visible group-hover:text-white absolute top-16 left-0"
@@ -24,9 +24,9 @@
 				>
 			{/each}
 		</div>
-	</div>
+	</div> -->
 	<a href="/archive" class="p-6 hover:text-brandRed hover:bg-brandBlue">Archive</a>
-	<a href="/" class="p-6 hover:text-brandRed hover:bg-brandBlue">Explore</a>
+	<!-- <a href="/" class="p-6 hover:text-brandRed hover:bg-brandBlue">Explore</a> -->
 </nav>
 
 <slot />

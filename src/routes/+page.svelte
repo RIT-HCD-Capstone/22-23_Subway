@@ -32,9 +32,10 @@
 			ROCHESTER SUBWAY ARCHIVE
 		</h1>
 		<p class="max-w-[65ch] mt-4">
-			The Rochester Subway Archive is a digital collection of historical information and artifacts
-			related to the Rochester Subway, a now-defunct underground rail system that operated in
-			Rochester, New York from 1927 to 1956.
+			The Rochester Subway is a now-defunct underground rail system that operated in Rochester, New
+			York from 1927 to 1956. The Rochester Subway Archive is a digital collection to preserve the
+			history of the Rochester Subway from its inception to its modern day usage as a haven for
+			graffiti artists.
 		</p>
 		<p class="max-w-[65ch] mt-4">
 			The Archive includes a wide range of materials, including photographs, maps, videos, and
@@ -52,8 +53,8 @@
 		</p>
 		<p>
 			<b>
-				Overall, the Rochester Subway Archive is a valuable resource for anyone interested in the
-				history of Rochester or the evolution of urban transportation systems more broadly.</b
+				The Rochester Subway Archive is a valuable resource for anyone interested in the history of
+				Rochester or the evolution of modern graffiti.</b
 			>
 		</p>
 		<div class="flex flex-row flex-wrap gap-4 justify-around items-center">
@@ -63,42 +64,17 @@
 		</div>
 		<h3>IMPORTANCE</h3>
 		<p>
-			Graffiti played a role in the culture of the Rochester Subway, and there are several examples
-			of graffiti art preserved in the Rochester Subway Archive. As an abandoned and largely
-			overlooked public space, the subway tunnels became a canvas for graffiti artists who used the
-			blank walls and surfaces to showcase their art.
+			Much of the original Rochester Subway has been demolished or filled in with no trace that it
+			was ever there to begin with. Not only was the subway a means of transportation, but in its
+			later years it was also a gathering place for artists in the community. Through the walls of
+			the abandoned subway art has emerged, fighting for social justice, togetherness, and has
+			culminated into a unique ‘Rochester Style’ of Graffiti.
 		</p>
 		<p>
-			The graffiti in the Rochester Subway reflects the broader cultural trends of the time period,
-			including the rise of hip hop culture, street art, and political activism. Some of the
-			graffiti in the Archive depicts political slogans and social commentary, while other examples
-			feature more stylized designs and lettering.
-		</p>
-		<p>
-			The graffiti art in the Archive also provides a window into the underground culture of the
-			subway during its heyday, as well as the subculture of graffiti artists and their role in the
-			urban landscape. The Archive includes photos and videos of the graffiti art, as well as
-			interviews with former subway riders and graffiti artists who reflect on the impact of the art
-			and its place in the cultural history of Rochester.
-		</p>
-		<p>
-			Overall, the graffiti in the Rochester Subway Archive is a fascinating and valuable cultural
-			artifact that offers insight into the broader trends of the time period, as well as the unique
-			subculture of the Rochester Subway.
-		</p>
-		<h3>ABOUT</h3>
-		<p>
-			The goals of a project can vary widely depending on the context and the needs of the
-			stakeholders involved. Some common reasons for starting a project might include developing a
-			new product or service, improving an existing process or system, launching a marketing
-			campaign, implementing new technology, conducting research or experimentation, building
-			infrastructure, or addressing a social or environmental issue.
-		</p>
-		<p>
-			Effective project management involves careful planning, execution, and monitoring of project
-			activities, as well as effective communication and collaboration among team members and
-			stakeholders. Projects can be complex and challenging, but when successfully executed, they
-			can lead to significant benefits and positive outcomes.
+			The Rochester Subway Archive team is a group of seniors from the Rochester Institute of
+			Technology in the Humanities Computing and Design Major. Led by Dr. Jessica Leiberman who is
+			an advisor to the city on the historical relevance of the subway, the team has worked to
+			create an easy to navigate look into the rich history of The Rochester Subway.
 		</p>
 		<h3>Team</h3>
 		<div class="grid grid-cols-3 gap-4">

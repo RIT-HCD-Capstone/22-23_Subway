@@ -1,9 +1,14 @@
 <script lang="ts">
 	import { page } from '$app/stores';
 	import ArtifactCard from '$lib/ArtifactCard.svelte';
+	import { onMount } from 'svelte';
 	import type { PageData } from './$types';
+	import { goto } from '$app/navigation';
 
 	export let data: PageData;
+	onMount(async () => {
+		goto(`/${$page.route.id}`);
+	});
 </script>
 
 <main class="pt-24 mx-4">
